@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "AzureWebJobsDashboard": "",
+    "SBConnectionString": "Endpoint=sb://blogical.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=a2djXBQcsXvBvLFC+TdEGTfM/t+XBzduD12+QxbBzSY=",
+    "testqueue": "testqueue-dev"
+  }
+}

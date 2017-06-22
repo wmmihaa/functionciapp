@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "connection": "SBConnectionString",
+      "queueName": "%testqueue%",
+      "access": "manage",
+      "direction": "in",
+      "name": "myQueueItem"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\functionciapp.dll",
+  "entryPoint": "functionciapp.CITest.Run"
+}
