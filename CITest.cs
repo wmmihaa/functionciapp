@@ -10,7 +10,7 @@ namespace functionciapp
         [FunctionName("CITestFunction")]
         public static void Run([ServiceBusTrigger("%testqueue%", AccessRights.Manage, Connection = "SBConnectionString")]BrokeredMessage myQueueItem, TraceWriter log)
         {
-            log.Info($"...C# ServiceBus queue trigger function processed message: {myQueueItem}");
+            log.Info($"NOEMI ROCKAR! C# ServiceBus queue trigger function processed message: {myQueueItem}");
         }
     }
 }
